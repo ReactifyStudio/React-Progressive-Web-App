@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(72, 72, 247);
+  font-size: 1.2rem;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+
+input{
+  padding:1.3rem 5rem;
+  border:none;
+  font-size: 1.1rem;
+}
+.add-btn{
+  padding: 1.3rem;
+  font-size: 1.1rem;
+}
+
+button{
+  border:none;
+  margin-right: 5px;
+
+}
+
+
+button:hover{
+  transform: scale(0.98);
+  transition: linear 0.8s;
+  cursor: pointer;
+}
+.checked{
+  color:rgb(240, 240, 247);
+  text-decoration: line-through;
+}
+.todo{
+  display: flex;
+}
+
+.check-btn{
+  color:rgb(14, 14, 14);
+  background-color: rgb(95, 130, 245);
+}
+.delete-btn{
+  color: rgb(247, 238, 242);
+  background-color: rgb(255, 38, 38);
+}
