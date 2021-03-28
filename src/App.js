@@ -9,7 +9,7 @@ import Map from './components/map/Map' // import the map here
 import './App.css'
 
 const location = {
-  address: 'Juja Kwale, Rd, Juja',
+  address: 'JKUAT UNIVERSITY MAIN CAMPUS BOOM',
   lat: -1.100396/*37.42216*/,
   lng: 37.014533/*-122.08427*/,
 } // our location object from earlier
@@ -23,5 +23,6 @@ const App = () => (
     <FooterSection /> */}
   </div>
 )
-
+// Create a component::
+//
 export default App
