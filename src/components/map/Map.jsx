@@ -10,7 +10,7 @@ import './map.css'
 // The component LocationPin need a text and Icon component will recieve locationIcon as a prop
 // The Map component will take a prop of lication and zoomLevel props
 // Add GoogleMap React with defaults and
-// LocationPin HOC created above
+// LocationPin HOC created above 
 
 const LocationPin = ({ text }) => (
   <div className="pin">
@@ -25,7 +25,7 @@ const Map = ({ location, zoomLevel }) => (
 
     <div className="google-map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key:'YOUR_API_KEY' }}
+        bootstrapURLKeys={{ key:'' }}
         defaultCenter={location}
         defaultZoom={zoomLevel}
       >
